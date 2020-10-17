@@ -156,7 +156,7 @@ public class MainActivity extends AppCompatActivity implements MyRecyclerViewAda
     private String getDate(long time) {
         Calendar cal = Calendar.getInstance(Locale.ENGLISH);
         cal.setTimeInMillis(time * 1000);
-        String date = DateFormat.format("hh:mm (dd-MM-yyyy)", cal).toString();
+        String date = DateFormat.format("hh:mm %n (dd-MM-yyyy)", cal).toString();
         return date;
     }
 
