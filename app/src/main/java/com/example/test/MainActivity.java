@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity implements MyRecyclerViewAda
                     for (int i = 0; i < 50; i++) {
                         JSONObject obj = jArray3.getJSONObject(i);
                         JSONObject data2 = obj.getJSONObject("data");
-                        author.add(data2.getString("author"));
+                        author.add(data2.getString("/"+"author"));
                         rating.add(Integer.parseInt(data2.getString("score")) / 1000 + " k");
                         double tstap = Double.parseDouble(data2.getString("created"));
                         long x = Math.round(tstap);
