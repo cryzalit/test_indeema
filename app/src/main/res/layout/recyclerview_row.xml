@@ -17,7 +17,7 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="2"
+            android:layout_weight="2.5"
             android:orientation="vertical"
             android:padding="5dp"
             android:weightSum="7">
@@ -31,7 +31,7 @@
                 android:layout_weight="3"
                 android:maxWidth="350dp"
                 android:maxHeight="200dp"
-                android:minHeight="200dp"
+                android:minHeight="100dp"
                 android:padding="5dp"
                 android:scaleType="fitXY" />
 
@@ -47,7 +47,7 @@
                 android:padding="5dp"
                 android:text="РЕЙТИНГ"
                 android:textColor="@color/black"
-                android:textSize="45sp"
+                android:textSize="35sp"
                 android:textStyle="bold" />
 
             <Button
@@ -66,7 +66,6 @@
                 android:textSize="14dp"
                 android:textStyle="bold"
                 app:backgroundTint="@android:color/transparent" />
-
 
 
         </LinearLayout>
