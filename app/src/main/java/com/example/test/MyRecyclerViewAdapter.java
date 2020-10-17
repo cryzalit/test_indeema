@@ -83,7 +83,7 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
 
 
         holder.title.setText(tl);
-        holder.author.setText("Posted by /"+au);
+        holder.author.setText("Posted by  "+au);
         holder.rating.setText(rt);
         holder.ncoments.setText(cm);
         holder.subreddit.setText(sb);
