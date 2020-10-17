@@ -47,7 +47,7 @@
                 android:padding="5dp"
                 android:text="РЕЙТИНГ"
                 android:textColor="@color/black"
-                android:textSize="35sp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
 
             <Button
