@@ -29,6 +29,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="5dp"
                 android:layout_weight="3.5"
+                android:minWidth="150dp"
                 android:maxWidth="350dp"
                 android:maxHeight="200dp"
                 android:minHeight="75dp"
