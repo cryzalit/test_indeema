@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity implements MyRecyclerViewAda
                         dates.add(getDate(x));
                         title.add(data2.getString("title"));
                         ncoments.add(data2.getString("num_comments"));
-                        subreddit.add(" /" + data2.getString("subreddit"));
+                        subreddit.add("/" + data2.getString("subreddit"));
                         url.add(data2.getString("thumbnail"));
                         permalink.add("https://www.reddit.com" + data2.getString("permalink"));
                         tinydb.putListString("permalink", permalink);
