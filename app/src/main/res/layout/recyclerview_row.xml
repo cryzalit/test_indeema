@@ -17,7 +17,7 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="2.5"
+            android:layout_weight="3"
             android:orientation="vertical"
             android:padding="5dp"
             android:weightSum="7">
@@ -28,7 +28,7 @@
                 android:layout_height="0dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="5dp"
-                android:layout_weight="3"
+                android:layout_weight="3.5"
                 android:maxWidth="350dp"
                 android:maxHeight="200dp"
                 android:minHeight="100dp"
@@ -73,7 +73,7 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="5.5"
+            android:layout_weight="5"
             android:orientation="vertical"
             android:padding="5dp"
             android:weightSum="5.5">
