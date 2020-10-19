@@ -70,6 +70,15 @@ public class MainActivity extends AppCompatActivity implements MyRecyclerViewAda
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
+            author = tinydb.getListString("author");
+            rating = tinydb.getListString("rating");
+            dates = tinydb.getListString("dates");
+            title = tinydb.getListString("title");
+            ncoments = tinydb.getListString("ncoments");
+            subreddit = tinydb.getListString("subreddit");
+            url = tinydb.getListString("url");
+            permalink = tinydb.getListString("permalink");
+            adapter.notifyDataSetChanged();
 
         }
 
@@ -124,21 +133,7 @@ public class MainActivity extends AppCompatActivity implements MyRecyclerViewAda
             return null;
         }
 
-        @Override
-        protected void onPostExecute(Void result) {
-            author = tinydb.getListString("author");
-            rating = tinydb.getListString("rating");
-            dates = tinydb.getListString("dates");
-            title = tinydb.getListString("title");
-            ncoments = tinydb.getListString("ncoments");
-            subreddit = tinydb.getListString("subreddit");
-            url = tinydb.getListString("url");
-            permalink = tinydb.getListString("permalink");
-
-            adapter.notifyDataSetChanged();
-
-
-        }
+     
     }
 
 
